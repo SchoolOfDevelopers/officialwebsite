@@ -1,0 +1,509 @@
+{% extends 'courses/coursesbase.html' %}
+{% block address %}
+    {{ block.super }}
+    <ol class="breadcrumb well">
+        <span class="pull-left">You are here:&nbsp;</span>
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="{% url 'training' %}">Training</a></li>
+        <li><a href="/home/Training/#Foundation">Foundation</a></li>
+        <li class="active">C</li>
+    </ol>
+{% endblock %}
+{% block course_title_head %}
+    Certificate in Android App Development
+{% endblock %}
+{% block course_title %}
+    Certificate in Android App Development
+{% endblock %}
+{% block course_duration %}
+    To be filled later
+{% endblock %}
+{% block course_fee %}
+    To be filled later
+{% endblock %}
+{% block course_content %}
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Basics of Android</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> What is Android <br>
+                    <i class="fa fa-pencil"></i> History and Version <br>
+                    <i class="fa fa-pencil"></i> Installing softwares<br>
+                    <i class="fa fa-pencil"></i> Setup Eclipse <br>
+                    <i class="fa fa-pencil"></i> Hello Android example <br>
+                    <i class="fa fa-pencil"></i> Internal Details <br>
+                    <i class="fa fa-pencil"></i> Dalvik VM <br>
+                    <i class="fa fa-pencil"></i> Software Stack <br>
+                    <i class="fa fa-pencil"></i> Android Core Building Blocks <br>
+                    <i class="fa fa-pencil"></i> Android Emulator <br>
+                    <i class="fa fa-pencil"></i> AndroidManifest.xml <br>
+                    <i class="fa fa-pencil"></i> R.java file <br>
+                    <i class="fa fa-pencil"></i> Hide Title Bar <br>
+                    <i class="fa fa-pencil"></i> Screen Orientation <br>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">UI Widgets</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Working with Button <br>
+                    <i class="fa fa-pencil"></i> Toast <br>
+                    <i class="fa fa-pencil"></i> Custom Toast <br>
+                    <i class="fa fa-pencil"></i> Button <br>
+                    <i class="fa fa-pencil"></i> Toggle Button <br>
+                    <i class="fa fa-pencil"></i> Switch Button <br>
+                    <i class="fa fa-pencil"></i> Image Button <br>
+                    <i class="fa fa-pencil"></i> CheckBox <br>
+                    <i class="fa fa-pencil"></i> AlertDialog <br>
+                    <i class="fa fa-pencil"></i> Spinner <br>
+                    <i class="fa fa-pencil"></i> AutoCompleteTextView <br>
+                    <i class="fa fa-pencil"></i> Rating Bar <br>
+                    <i class="fa fa-pencil"></i> DatePicker <br>
+                    <i class="fa fa-pencil"></i> TimePicker <br>
+                    <i class="fa fa-pencil"></i> ProgressBar <br>
+                    <i class="fa fa-pencil"></i> Quick Contact Budge <br>
+                    <i class="fa fa-pencil"></i> Analog Clock and Digital Clock <br>
+                    <i class="fa fa-pencil"></i> Working with hardware Button <br>
+                    <i class="fa fa-pencil"></i> File Download <br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Activity, Intent & Fragment</a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Activity Lifecycle<br>
+                    <i class="fa fa-pencil"></i> Activity Example <br>
+                    <i class="fa fa-pencil"></i> Implicit Intent <br>
+                    <i class="fa fa-pencil"></i> Explicit Intent <br>
+                    <i class="fa fa-pencil"></i> Fragment Lifecycle<br>
+                    <i class="fa fa-pencil"></i> Fragment Example <br>
+                    <i class="fa fa-pencil"></i> Dynamic Fragment <br>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Android Menu</a>
+                </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+
+                    <i class="fa fa-pencil"></i> Option Menu <br>
+                    <i class="fa fa-pencil"></i> Context Menu <br>
+                    <i class="fa fa-pencil"></i> Popup Menu <br>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Layout Manager</a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <i class="fa fa-pencil"></i> Relative Layout <br>
+                        <i class="fa fa-pencil"></i> Linear Layout <br>
+                        <i class="fa fa-pencil"></i> Table Layout <br>
+                        <i class="fa fa-pencil"></i> Grid Layout <br>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Adaptor</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <i class="fa fa-pencil"></i> Array Adaptor <br>
+                        <i class="fa fa-pencil"></i> ArrayList Adaptor <br>
+                        <i class="fa fa-pencil"></i> Base Adaptor <br>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">View</a>
+                    </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <i class="fa fa-pencil"></i> GridView <br>
+                        <i class="fa fa-pencil"></i> WebView <br>
+                        <i class="fa fa-pencil"></i> ScrollView <br>
+                        <i class="fa fa-pencil"></i> SearchView <br>
+                        <i class="fa fa-pencil"></i> TabHost <br>
+                        <i class="fa fa-pencil"></i> DynamicListView <br>
+                        <i class="fa fa-pencil"></i> ExpandedListView<br>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title text-center">
+                        Advanced Android
+                    </h4>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Android Service</a>
+                    </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <i class="fa fa-pencil"></i> Android Service <br>
+                        <i class="fa fa-pencil"></i> Android Service API <br>
+                        <i class="fa fa-pencil"></i> Android Started Service <br>
+                        <i class="fa fa-pencil"></i> Android Bound Service <br>
+                        <i class="fa fa-pencil"></i> Android Service Life Cycle <br>
+                        <i class="fa fa-pencil"></i> Android Service Example <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Data Storage</a>
+            </h4>
+        </div>
+        <div id="collapse9" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> Shared Preferences<br>
+                <i class="fa fa-pencil"></i> Internal Storage <br>
+                <i class="fa fa-pencil"></i> External Storage <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">SQLite</a>
+            </h4>
+        </div>
+        <div id="collapse10" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> SQLite API <br>
+                <i class="fa fa-pencil"></i> SQLite Spinner <br>
+                <i class="fa fa-pencil"></i> SQLite ListView <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse11"> XML & JSON </a>
+            </h4>
+        </div>
+        <div id="collapse11" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> XML Parsing SAX<br>
+                <i class="fa fa-pencil"></i> XML Parsing DOM <br>
+                <i class="fa fa-pencil"></i> XML Pull Parser <br>
+                <i class="fa fa-pencil"></i> JSON Parsing <br>
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse12"> XML & JSON </a>
+            </h4>
+        </div>
+        <div id="collapse12" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> XML Parsing SAX<br>
+                <i class="fa fa-pencil"></i> XML Parsing DOM <br>
+                <i class="fa fa-pencil"></i> XML Pull Parser <br>
+                <i class="fa fa-pencil"></i> JSON Parsing <br>
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse13"> XML & JSON </a>
+            </h4>
+        </div>
+        <div id="collapse13" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> XML Parsing SAX<br>
+                <i class="fa fa-pencil"></i> XML Parsing DOM <br>
+                <i class="fa fa-pencil"></i> XML Pull Parser <br>
+                <i class="fa fa-pencil"></i> JSON Parsing <br>
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse14"> XML & JSON </a>
+            </h4>
+        </div>
+        <div id="collapse14" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> XML Parsing SAX<br>
+                <i class="fa fa-pencil"></i> XML Parsing DOM <br>
+                <i class="fa fa-pencil"></i> XML Pull Parser <br>
+                <i class="fa fa-pencil"></i> JSON Parsing <br>
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse15"> Cotent Provider </a>
+            </h4>
+        </div>
+        <div id="collapse15" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> Content Proivider Fundamental <br>
+                <i class="fa fa-pencil"></i>Contact Content Provider <br>
+                <i class="fa fa-pencil"></i>Other Built-in Content Providers <br>
+                <i class="fa fa-pencil"></i>Creating Custom Content Provider <br>
+                <i class="fa fa-pencil"></i>Understanding Content URI <br>
+                <i class="fa fa-pencil"></i>ContentResolver <br>
+                <i class="fa fa-pencil"></i>Sharing Information from custom content provider<br>
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse16"> Android Notification </a>
+            </h4>
+        </div>
+        <div id="collapse16" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> Notification API <br>
+                <i class="fa fa-pencil"></i>Creating Notification Builder <br>
+                <i class="fa fa-pencil"></i>Setting Notification Properties <br>
+                <i class="fa fa-pencil"></i>Attaching Actions <br>
+                <i class="fa fa-pencil"></i>Issuing Notification <br>
+                <i class="fa fa-pencil"></i>NotificationCompat.Builder class <br>
+                <i class="fa fa-pencil"></i>Android Notification Examples <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse17"> Multimedia</a>
+            </h4>
+        </div>
+        <div id="collapse17" class="panel-collapse collapse">
+            <div class="panel-body">
+
+                <i class="fa fa-pencil"></i> Wallpapaer <br>
+                <i class="fa fa-pencil"></i>Live Wallpaper <br>
+                <i class="fa fa-pencil"></i>Multimedia API <br>
+                <i class="fa fa-pencil"></i>Playing Audio <br>
+                <i class="fa fa-pencil"></i>Creating Audio Player<br>
+                <i class="fa fa-pencil"></i>Playing Video <br>
+                <i class="fa fa-pencil"></i>Alarm Manager <br>
+                <i class="fa fa-pencil"></i>Gallery <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse18"> Speech API</a>
+            </h4>
+        </div>
+        <div id="collapse18" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> TextToSpeech API <br>
+                <i class="fa fa-pencil"></i>TextToSpeech Example <br>
+                <i class="fa fa-pencil"></i>Managing speed and pitch <br>
+                <i class="fa fa-pencil"></i>Speech To Text <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse19"> Telephony API</a>
+            </h4>
+        </div>
+        <div id="collapse19" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i>Telephony Manager <br>
+                <i class="fa fa-pencil"></i>Get Call State <br>
+                <i class="fa fa-pencil"></i>Call State BroadcastReceiver<br>
+                <i class="fa fa-pencil"></i>Simple Caller Talker <br>
+                <i class="fa fa-pencil"></i>Making Phone Call<br>
+                <i class="fa fa-pencil"></i>Send SMS <br>
+                <i class="fa fa-pencil"></i>Send Email <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse20"> Location API</a>
+            </h4>
+        </div>
+        <div id="collapse20" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i>Location API Fundamental <br>
+                <i class="fa fa-pencil"></i>Example of Android Location API <br>
+                <i class="fa fa-pencil"></i>Working with Google Maps <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse21"> Animation</a>
+            </h4>
+        </div>
+        <div id="collapse21" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> Android Animation API <br>
+                <i class="fa fa-pencil"></i>Android Drawable class <br>
+                <i class="fa fa-pencil"></i>Android Animation Example <br>
+                <i class="fa fa-pencil"></i>Android Rotate Animation <br>
+                <i class="fa fa-pencil"></i>Android Fade Animation <br>
+                <i class="fa fa-pencil"></i>Android Zoom Animation <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse22"> Device Connectivity</a>
+            </h4>
+        </div>
+        <div id="collapse22" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i>Bluetooth Tutorial <br>
+                <i class="fa fa-pencil"></i>List Paired Devices <br>
+                <i class="fa fa-pencil"></i>Working with WiFi <br>
+                <i class="fa fa-pencil"></i>Working with Camera <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse23"> Sensor </a>
+            </h4>
+        </div>
+        <div id="collapse23" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i> Sensor API <br>
+                <i class="fa fa-pencil"></i>Motion Sensor <br>
+                <i class="fa fa-pencil"></i>Position Sensor <br>
+                <i class="fa fa-pencil"></i>Environmental Sensor <br>
+                <i class="fa fa-pencil"></i>Sensor Values <br>
+                <i class="fa fa-pencil"></i>SensorManager class <br>
+                <i class="fa fa-pencil"></i>Sensor Class <br>
+                <i class="fa fa-pencil"></i>SensorEvent class <br>
+                <i class="fa fa-pencil"></i>SensorEventListener interface <br>
+                <i class="fa fa-pencil"></i>Compass Accelerometer and Orientation Sensors <br>
+                <i class="fa fa-pencil"></i>Sensor Examples <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse24"> Android Graphics </a>
+            </h4>
+        </div>
+        <div id="collapse24" class="panel-collapse collapse">
+            <div class="panel-body">
+
+                <i class="fa fa-pencil"></i>Graphics API <br>
+                <i class="fa fa-pencil"></i>2D Graphics <br>
+                <i class="fa fa-pencil"></i>android.graphics.Canvas <br>
+                <i class="fa fa-pencil"></i>android.graphics.Paint class <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse25"> Android P2P Communication
+                </a>
+            </h4>
+        </div>
+        <div id="collapse25" class="panel-collapse collapse">
+            <div class="panel-body">
+
+                <i class="fa fa-pencil"></i>Introducing Instant Messaging <br>
+                <i class="fa fa-pencil"></i>Using the GTalk Service <br>
+                <i class="fa fa-pencil"></i>Monitoring the Roste for Changes<br>
+                <i class="fa fa-pencil"></i>Sending and Receiving Data Messages <br>
+                <i class="fa fa-pencil"></i>Transmitting Data Messages <br>
+                <i class="fa fa-pencil"></i>Receiving Data Messages <br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse26"> Android Web Services
+                </a>
+            </h4>
+        </div>
+        <div id="collapse26" class="panel-collapse collapse">
+            <div class="panel-body">
+                <i class="fa fa-pencil"></i>What is web service <br>
+                <i class="fa fa-pencil"></i>Soap Vs Restful web service <br>
+                <i class="fa fa-pencil"></i>Android Restful web service example with java servlet <br>
+                <i class="fa fa-pencil"></i>Storing data into external oracle database <br>
+                <i class="fa fa-pencil"></i>Verifying data in android with external oracle database<br>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse27"> Android Google Map
+                </a>
+            </h4>
+        </div>
+        <div id="collapse27" class="panel-collapse collapse">
+            <div class="panel-body">
+
+                <i class="fa fa-pencil"></i>Android Map V2 API <br>
+                <i class="fa fa-pencil"></i>Adding Map <br>
+                <i class="fa fa-pencil"></i>Customizing Map <br>
+                <i class="fa fa-pencil"></i>GoogleMap class <br>
+                <i class="fa fa-pencil"></i>Android Google Map Application <br>
+            </div>
+        </div>
+    </div>
+{% endblock %}

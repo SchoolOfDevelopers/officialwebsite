@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "digital";
+  src: url("/static/font/digital-7.ttf");
+}
+.box{
+    width: 9%;
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0;
+    padding: 0;
+}
+.blank{
+    color: black;
+}
+body{
+    background: white;
+}
+
+.wrapper{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+}
+.tablet{
+    height: 95%;
+    width: 70%;
+    margin-top: 2%;
+}
+.texting{
+    font-size: 2em;
+    color: aqua;
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 49%
+}
+.digital{
+    font-family: digital;
+    font-size: 1.5em;
+}
+.slogan{
+    font-size: 3em;
+    color: aqua;
+    display: block;
+    position: absolute;
+    top:35%;
+    left: 38%;
+}

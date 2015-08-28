@@ -1,0 +1,1038 @@
+{% extends 'courses/coursesbase.html' %}
+{% block address %}
+    {{ block.super }}
+    <ol class="breadcrumb well">
+        <span class="pull-left">You are here:&nbsp;</span>
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="{% url 'training' %}">Training</a></li>
+        <li><a href="/home/Training/#Foundation">Foundation</a></li>
+        <li class="active">C</li>
+    </ol>
+{% endblock %}
+{% block course_title_head %}
+    Certificate in Oracle
+{% endblock %}1
+{% block course_title %}
+    Certificate in Oracle
+{% endblock %}
+{% block course_duration %}
+    to be filled
+{% endblock %}
+{% block course_fee %}
+    Rs. to be filled
+{% endblock %}
+{% block course_content %}
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="fa fa-bars"></i>Writing
+                        Basic SQL SELECT Statement</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Basic SELECT Statement<br>
+                    <i class="fa fa-pencil"></i> Selecting All Columns<br>
+                    <i class="fa fa-pencil"></i> Selecting Specific Columns<br>
+                    <i class="fa fa-pencil"></i> Writing SQL Statements<br>
+                    <i class="fa fa-pencil"></i> Column Heading Defaults<br>
+                    <i class="fa fa-pencil"></i> Arithmetic Expressions<br>
+                    <i class="fa fa-pencil"></i> Using Arithmetic Operators<br>
+                    <i class="fa fa-pencil"></i> Operator Precedence<br>
+                    <i class="fa fa-pencil"></i> Using Parentheses<br>
+                    <i class="fa fa-pencil"></i> Defining a Null Value<br>
+                    <i class="fa fa-pencil"></i> Null Values in Arithmetic Expressions<br>
+                    <i class="fa fa-pencil"></i> Defining a Column Alias<br>
+                    <i class="fa fa-pencil"></i> Using Column Aliases<br>
+                    <i class="fa fa-pencil"></i> Concatenation Operator<br>
+                    <i class="fa fa-pencil"></i> Using the Concatenation Operator<br>
+                    <i class="fa fa-pencil"></i> Literal Character Strings<br>
+                    <i class="fa fa-pencil"></i> Using Literal Character Strings<br>
+                    <i class="fa fa-pencil"></i> Duplicate Rows<br>
+                    <i class="fa fa-pencil"></i> Eliminating Duplicate Rows<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="fa fa-bars"></i>
+                        Restricting and Sorting Data</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Limiting Rows Using a Selection<br>
+                    <i class="fa fa-pencil"></i> Limiting the Rows Selected<br>
+                    <i class="fa fa-pencil"></i> Using the WHERE Clause<br>
+                    <i class="fa fa-pencil"></i> Character Strings and Dates<br>
+                    <i class="fa fa-pencil"></i> Comparison Conditions<br>
+                    <i class="fa fa-pencil"></i> Using Comparison Conditions<br>
+                    <i class="fa fa-pencil"></i> Other Comparison Conditions<br>
+                    <i class="fa fa-pencil"></i> Using the BETWEEN Condition<br>
+                    <i class="fa fa-pencil"></i> Using the IN Condition<br>
+                    <i class="fa fa-pencil"></i> Using the LIKE Condition<br>
+                    <i class="fa fa-pencil"></i> Using the NULL Conditions<br>
+                    <i class="fa fa-pencil"></i> Logical Conditions<br>
+                    <i class="fa fa-pencil"></i> Using the AND Operator<br>
+                    <i class="fa fa-pencil"></i> Using the OR Operator<br>
+                    <i class="fa fa-pencil"></i> Using the NOT Operator<br>
+                    <i class="fa fa-pencil"></i> Rules of Precedence<br>
+                    <i class="fa fa-pencil"></i> ORDER BY Clause<br>
+                    <i class="fa fa-pencil"></i> Sorting in Descending Order<br>
+                    <i class="fa fa-pencil"></i> Sorting by Column Alias<br>
+                    <i class="fa fa-pencil"></i> Sorting by Multiple Columns<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="fa fa-bars"></i>
+                        Single-Row Functions</a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> SQL Function<br>
+                    <i class="fa fa-pencil"></i> Two Types of SQL Functions<br>
+                    <i class="fa fa-pencil"></i> Single-Row Functions<br>
+                    <i class="fa fa-pencil"></i> Single-Row Functions<br>
+                    <i class="fa fa-pencil"></i> Character Functions<br>
+                    <i class="fa fa-pencil"></i> Character Functions<br>
+                    <i class="fa fa-pencil"></i> Case Manipulation Functions<br>
+                    <i class="fa fa-pencil"></i> Using Case Manipulation Functions<br>
+                    <i class="fa fa-pencil"></i> Character-Manipulation Functions<br>
+                    <i class="fa fa-pencil"></i> Using the Character-Manipulation Functions<br>
+                    <i class="fa fa-pencil"></i> Number Functions<br>
+                    <i class="fa fa-pencil"></i> Using the ROUND Function<br>
+                    <i class="fa fa-pencil"></i> Using the TRUNC Function<br>
+                    <i class="fa fa-pencil"></i> Using the MOD Function<br>
+                    <i class="fa fa-pencil"></i> Working with Dates<br>
+                    <i class="fa fa-pencil"></i> Arithmetic with Dates<br>
+                    <i class="fa fa-pencil"></i> Using Arithmetic Operators with Dates<br>
+                    <i class="fa fa-pencil"></i> Date Functions<br>
+                    <i class="fa fa-pencil"></i> Using Date Functions<br>
+                    <i class="fa fa-pencil"></i> Practice 3, Part One:<br>
+                    <i class="fa fa-pencil"></i> Conversion Functions<br>
+                    <i class="fa fa-pencil"></i> Implicit Data Type Conversion<br>
+                    <i class="fa fa-pencil"></i> Explicit Data Type Conversion<br>
+                    <i class="fa fa-pencil"></i> Using the TO_CHAR Function with Dates<br>
+                    <i class="fa fa-pencil"></i> Elements of the Date Format Model<br>
+                    <i class="fa fa-pencil"></i> Using the TO_CHAR Function with Dates<br>
+                    <i class="fa fa-pencil"></i> Using the TO_CHAR Function with Numbers<br>
+                    <i class="fa fa-pencil"></i> Using the TO_NUMBER and TO_DATE Functions<br>
+                    <i class="fa fa-pencil"></i> RR Date Format<br>
+                    <i class="fa fa-pencil"></i> Example of RR Date Format<br>
+                    <i class="fa fa-pencil"></i> Nesting Functions<br>
+                    <i class="fa fa-pencil"></i> General Functions<br>
+                    <i class="fa fa-pencil"></i> NVL Function<br>
+                    <i class="fa fa-pencil"></i> Using the NVL Function<br>
+                    <i class="fa fa-pencil"></i> Using the NVL2 Function<br>
+                    <i class="fa fa-pencil"></i> Using the NULLIF Function<br>
+                    <i class="fa fa-pencil"></i> Using the COALESCE Function<br>
+                    <i class="fa fa-pencil"></i> Conditional Expressions<br>
+                    <i class="fa fa-pencil"></i> The CASE Expression<br>
+                    <i class="fa fa-pencil"></i> Using the CASE Expression<br>
+                    <i class="fa fa-pencil"></i> The DECODE Function<br>
+                    <i class="fa fa-pencil"></i> Using the DECODE Function<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><i class="fa fa-bars"></i>
+                        Displaying Data from Multiple
+                        Tables</a>
+                </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Obtaining Data from Multiple Tables<br>
+                    <i class="fa fa-pencil"></i> Cartesian Products<br>
+                    <i class="fa fa-pencil"></i> Generating a Cartesian Product<br>
+                    <i class="fa fa-pencil"></i> Types of Joins<br>
+                    <i class="fa fa-pencil"></i> Joining Tables Using Oracle Syntax<br>
+                    <i class="fa fa-pencil"></i> What is an Equijoin?<br>
+                    <i class="fa fa-pencil"></i> Retrieving Records with Equijoins<br>
+                    <i class="fa fa-pencil"></i> Additional Search Conditions Using the AND Operator<br>
+                    <i class="fa fa-pencil"></i> Qualifying Ambiguous Column Names<br>
+                    <i class="fa fa-pencil"></i> Using Table Aliases<br>
+                    <i class="fa fa-pencil"></i> Joining More than Two Tables<br>
+                    <i class="fa fa-pencil"></i> Non-Equijoins<br>
+                    <i class="fa fa-pencil"></i> Retrieving Records with Non-Equijoins<br>
+                    <i class="fa fa-pencil"></i> Outer Joins Outer Joins Syntax<br>
+                    <i class="fa fa-pencil"></i> Using Outer Joins<br>
+                    <i class="fa fa-pencil"></i> Self Joins<br>
+                    <i class="fa fa-pencil"></i> Joining a Table to Itself<br>
+                    <i class="fa fa-pencil"></i> Joining Tables Using SQL: 1999 Syntax<br>
+                    <i class="fa fa-pencil"></i> Creating Cross Joins<br>
+                    <i class="fa fa-pencil"></i> Creating Natural Joins<br>
+                    <i class="fa fa-pencil"></i> Retrieving Records with Natural Joins<br>
+                    <i class="fa fa-pencil"></i> Creating Joins with the USING Clause<br>
+                    <i class="fa fa-pencil"></i> Retrieving Records with the USING Clause<br>
+                    <i class="fa fa-pencil"></i> Creating Joins with the ON Clause<br>
+                    <i class="fa fa-pencil"></i> Retrieving Records with the ON Clause<br>
+                    <i class="fa fa-pencil"></i> Creating Three-Way Joins with the ON Clause<br>
+                    <i class="fa fa-pencil"></i> INNER Versus OUTER Joins<br>
+                    <i class="fa fa-pencil"></i> LEFT OUTER JOIN<br>
+                    <i class="fa fa-pencil"></i> RIGHT OUTER JOIN<br>
+                    <i class="fa fa-pencil"></i> FULL OUTER JOIN<br>
+                    <i class="fa fa-pencil"></i> Additional Conditions<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><i class="fa fa-bars"></i>
+                        Aggregating Data Using Group
+                        Functions</a>
+                </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> What Are Group Functions?<br>
+                    <i class="fa fa-pencil"></i> Types of Group Functions<br>
+                    <i class="fa fa-pencil"></i> Group Functions Syntax<br>
+                    <i class="fa fa-pencil"></i> Using the AVG and SUM Functions<br>
+                    <i class="fa fa-pencil"></i> Using the MIN and MAX Functions<br>
+                    <i class="fa fa-pencil"></i> Using the COUNT Function<br>
+                    <i class="fa fa-pencil"></i> Using the DISTINCT Keyword<br>
+                    <i class="fa fa-pencil"></i> Group Functions and Null Values<br>
+                    <i class="fa fa-pencil"></i> Using the NVL Function with Group Functions<br>
+                    <i class="fa fa-pencil"></i> Creating Groups of Data<br>
+                    <i class="fa fa-pencil"></i> Creating Groups of Data: The GROUP BY Clause Syntax<br>
+                    <i class="fa fa-pencil"></i> Using the GROUP BY Clause<br>
+                    <i class="fa fa-pencil"></i> Grouping by More Than One Column<br>
+                    <i class="fa fa-pencil"></i> Using the GROUP BY Clause on Multiple Columns<br>
+                    <i class="fa fa-pencil"></i> Illegal Queries Using Group Functions<br>
+                    <i class="fa fa-pencil"></i> Excluding Group Results<br>
+                    <i class="fa fa-pencil"></i> Excluding Group Results: The HAVING Clause<br>
+                    <i class="fa fa-pencil"></i> Using the HAVING Clause<br>
+                    <i class="fa fa-pencil"></i> Nesting Group Functions<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><i class="fa fa-bars"></i>
+                        Subqueries</a>
+                </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Objectives
+                    <i class="fa fa-pencil"></i> Using a Subquery to Solve a Problem<br>
+                    <i class="fa fa-pencil"></i> Subquery Syntax<br>
+                    <i class="fa fa-pencil"></i> Using a Subquery<br>
+                    <i class="fa fa-pencil"></i> Guidelines for Using Subqueries<br>
+                    <i class="fa fa-pencil"></i> Types of Subqueries<br>
+                    <i class="fa fa-pencil"></i> Single-Row Subqueries<br>
+                    <i class="fa fa-pencil"></i> Executing Single-Row Subqueries<br>
+                    <i class="fa fa-pencil"></i> Using Group Functions in a Subquery<br>
+                    <i class="fa fa-pencil"></i> The HAVING Clause with Subqueries<br>
+                    <i class="fa fa-pencil"></i> What is Wrong with this Statement?<br>
+                    <i class="fa fa-pencil"></i> Will this Statement Return Rows?<br>
+                    <i class="fa fa-pencil"></i> Multiple-Row Subqueries<br>
+                    <i class="fa fa-pencil"></i> Using the ANY Operator in Multiple-Row Subqueries<br>
+                    <i class="fa fa-pencil"></i> Using the ALL Operator in Multiple-Row Subqueries<br>
+                    <i class="fa fa-pencil"></i> Null Values in a Subquery<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><i class="fa fa-bars"></i>
+                        Manipulating Data</a>
+                </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Data Manipulation Language
+                    <i class="fa fa-pencil"></i> Adding a New Row to a Table<br>
+                    <i class="fa fa-pencil"></i> The INSERT Statement Syntax 8-5<br>
+                    <i class="fa fa-pencil"></i> Inserting New Rows<br>
+                    <i class="fa fa-pencil"></i> Inserting Rows with Null Values<br>
+                    <i class="fa fa-pencil"></i> Inserting Special Values<br>
+                    <i class="fa fa-pencil"></i> Inserting Specific Date Values<br>
+                    <i class="fa fa-pencil"></i> Creating a Script<br>
+                    <i class="fa fa-pencil"></i> Copying Rows from Another Table<br>
+                    <i class="fa fa-pencil"></i> Changing Data in a Table<br>
+                    <i class="fa fa-pencil"></i> The UPDATE Statement Syntax<br>
+                    <i class="fa fa-pencil"></i> Updating Rows in a Table<br>
+                    <i class="fa fa-pencil"></i> Updating Two Columns with a Subquery<br>
+                    <i class="fa fa-pencil"></i> Updating Rows Based on Another Table<br>
+                    <i class="fa fa-pencil"></i> Updating Rows: Integrity Constraint Error<br>
+                    <i class="fa fa-pencil"></i> Removing a Row from a Table<br>
+                    <i class="fa fa-pencil"></i> The DELETE Statement<br>
+                    <i class="fa fa-pencil"></i> Deleting Rows from a Table<br>
+                    <i class="fa fa-pencil"></i> Deleting Rows Based on Another Table<br>
+                    <i class="fa fa-pencil"></i> Deleting Rows: Integrity Constraint Error<br>
+                    <i class="fa fa-pencil"></i> Using a Subquery in an INSERT Statement<br>
+                    <i class="fa fa-pencil"></i> Using the WITH CHECK OPTION Keyword on DML Statements<br>
+                    <i class="fa fa-pencil"></i> Overview of the Explicit Default Feature<br>
+                    <i class="fa fa-pencil"></i> Using Explicit Default Values<br>
+                    <i class="fa fa-pencil"></i> The MERGE Statement<br>
+                    <i class="fa fa-pencil"></i> The MERGE Statement Syntax<br>
+                    <i class="fa fa-pencil"></i> Merging Rows<br>
+                    <i class="fa fa-pencil"></i> Database Transactions<br>
+                    <i class="fa fa-pencil"></i> Advantages of COMMIT and ROLLBACK Statements<br>
+                    <i class="fa fa-pencil"></i> Controlling Transactions<br>
+                    <i class="fa fa-pencil"></i> Rolling Back Changes to a Marker<br>
+                    <i class="fa fa-pencil"></i> Implicit Transaction Processing<br>
+                    <i class="fa fa-pencil"></i> State of the Data Before COMMIT or ROLLBACK<br>
+                    <i class="fa fa-pencil"></i> State of the Data after COMMIT<br>
+                    <i class="fa fa-pencil"></i> Committing Data<br>
+                    <i class="fa fa-pencil"></i> State of the Data After ROLLBACK<br>
+                    <i class="fa fa-pencil"></i> Statement-Level Rollback<br>
+                    <i class="fa fa-pencil"></i> Read Consistency<br>
+                    <i class="fa fa-pencil"></i> Implementation of Read Consistency<br>
+                    <i class="fa fa-pencil"></i> Locking<br>
+                    <i class="fa fa-pencil"></i> Implicit Locking<br>
+                    <i class="fa fa-pencil"></i> Read Consistency Example<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8"><i class="fa fa-bars"></i>
+                        Creating
+                        and Managing Tables</a>
+                </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Database Objects<br>
+                    <i class="fa fa-pencil"></i> Naming Rules<br>
+                    <i class="fa fa-pencil"></i> The CREATE TABLE Statement<br>
+                    <i class="fa fa-pencil"></i> Referencing Another User?s Tables<br>
+                    <i class="fa fa-pencil"></i> The DEFAULT Option<br>
+                    <i class="fa fa-pencil"></i> Creating Tables<br>
+                    <i class="fa fa-pencil"></i> Tables in the Oracle Database<br>
+                    <i class="fa fa-pencil"></i> Querying the Data Dictionary 9-10<br>
+                    <i class="fa fa-pencil"></i> Data Types<br>
+                    <i class="fa fa-pencil"></i> DateTime Data Types<br>
+                    <i class="fa fa-pencil"></i> TIMESTAMP WITH TIME ZONE Data Type<br>
+                    <i class="fa fa-pencil"></i> TIMESTAMP WITH LOCAL TIME Data Type<br>
+                    <i class="fa fa-pencil"></i> INTERVAL YEAR TO MONTH Data Type<br>
+                    <i class="fa fa-pencil"></i> INTERVAL DAY TO SECOND Data Type<br>
+                    <i class="fa fa-pencil"></i> Creating a Table by Using a Subquery Syntax<br>
+                    <i class="fa fa-pencil"></i> Creating a Table by Using a Subquery<br>
+                    <i class="fa fa-pencil"></i> The ALTER TABLE Statement<br>
+                    <i class="fa fa-pencil"></i> Adding a Column<br>
+                    <i class="fa fa-pencil"></i> Modifying a Column<br>
+                    <i class="fa fa-pencil"></i> Dropping a Column<br>
+                    <i class="fa fa-pencil"></i> The SET UNUSED Option<br>
+                    <i class="fa fa-pencil"></i> Dropping a Table<br>
+                    <i class="fa fa-pencil"></i> Changing the Name of an Object<br>
+                    <i class="fa fa-pencil"></i> Truncating a Table<br>
+                    <i class="fa fa-pencil"></i> Adding Comments to a Table<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9"><i class="fa fa-bars"></i>
+                        Including Constraints</a>
+                </h4>
+            </div>
+            <div id="collapse9" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> What are Constraints?<br>
+                    <i class="fa fa-pencil"></i> Constraint Guidelines<br>
+                    <i class="fa fa-pencil"></i> Defining Constraints<br>
+                    <i class="fa fa-pencil"></i> The NOT NULL Constraint<br>
+                    <i class="fa fa-pencil"></i> The UNIQUE Constraint<br>
+                    <i class="fa fa-pencil"></i> The PRIMARY KEY Constraint<br>
+                    <i class="fa fa-pencil"></i> The FOREIGN KEY Constraint<br>
+                    <i class="fa fa-pencil"></i> FOREIGN KEY Constraint Keywords<br>
+                    <i class="fa fa-pencil"></i> The CHECK Constraint<br>
+                    <i class="fa fa-pencil"></i> Adding a Constraint Syntax<br>
+                    <i class="fa fa-pencil"></i> Adding a Constraint<br>
+                    <i class="fa fa-pencil"></i> Dropping a Constraint<br>
+                    <i class="fa fa-pencil"></i> Disabling Constraints<br>
+                    <i class="fa fa-pencil"></i> Enabling Constraints<br>
+                    <i class="fa fa-pencil"></i> Cascading Constraints<br>
+                    <i class="fa fa-pencil"></i> Viewing Constraints<br>
+                    <i class="fa fa-pencil"></i> Viewing the Columns Associated with Constraints<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10"><i class="fa fa-bars"></i>
+                        Creating Views</a>
+                </h4>
+            </div>
+            <div id="collapse10" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Database Objects
+                    <i class="fa fa-pencil"></i> What is a View?<br>
+                    <i class="fa fa-pencil"></i> Why use Views?<br>
+                    <i class="fa fa-pencil"></i> Simple Views and Complex Views<br>
+                    <i class="fa fa-pencil"></i> Creating a View<br>
+                    <i class="fa fa-pencil"></i> Retrieving Data from a View<br>
+                    <i class="fa fa-pencil"></i> Querying a View<br>
+                    <i class="fa fa-pencil"></i> Modifying a View<br>
+                    <i class="fa fa-pencil"></i> Creating a Complex View<br>
+                    <i class="fa fa-pencil"></i> Rules for Performing DML Operations on a View<br>
+                    <i class="fa fa-pencil"></i> Using the WITH CHECK OPTION Clause<br>
+                    <i class="fa fa-pencil"></i> Denying DML Operations<br>
+                    <i class="fa fa-pencil"></i> Removing a View<br>
+                    <i class="fa fa-pencil"></i> Inline Views<br>
+                    <i class="fa fa-pencil"></i> Top-N Analysis<br>
+                    <i class="fa fa-pencil"></i> Performing Top-N Analysis<br>
+                    <i class="fa fa-pencil"></i> Example of Top-N Analysis<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11"><br><i class="fa fa-bars"></i>Other
+                        Database Objects</a>
+                </h4>
+            </div>
+            <div id="collapse11" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> database Objects
+                    <i class="fa fa-pencil"></i> What is a Sequence?<br>
+                    <i class="fa fa-pencil"></i> The CREATE SEQUENCE Statement Syntax<br>
+                    <i class="fa fa-pencil"></i> Creating a Sequence<br>
+                    <i class="fa fa-pencil"></i> Confirming Sequences<br>
+                    <i class="fa fa-pencil"></i> NEXTVAL and CURRVAL Pseudocolumns<br>
+                    <i class="fa fa-pencil"></i> Using a Sequence<br>
+                    <i class="fa fa-pencil"></i> Modifying a Sequence<br>
+                    <i class="fa fa-pencil"></i> Guidelines for Modifying a Sequence<br>
+                    <i class="fa fa-pencil"></i> Removing a Sequence<br>
+                    <i class="fa fa-pencil"></i> What is an Index?<br>
+                    <i class="fa fa-pencil"></i> How Are Indexes Created?<br>
+                    <i class="fa fa-pencil"></i> Creating an Index<br>
+                    <i class="fa fa-pencil"></i> When to Create an Index<br>
+                    <i class="fa fa-pencil"></i> When Not to Create an Index<br>
+                    <i class="fa fa-pencil"></i> Confirming Indexes<br>
+                    <i class="fa fa-pencil"></i> Function-Based Indexes<br>
+                    <i class="fa fa-pencil"></i> Removing an Index<br>
+                    <i class="fa fa-pencil"></i> Creating and Removing Synonyms<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse12"><i class="fa fa-bars"></i>
+                        Controlling User Access</a>
+                </h4>
+            </div>
+            <div id="collapse12" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Objectives
+                    <i class="fa fa-pencil"></i> Controlling User Access<br>
+                    <i class="fa fa-pencil"></i> Privileges<br>
+                    <i class="fa fa-pencil"></i> System Privileges<br>
+                    <i class="fa fa-pencil"></i> Creating Users<br>
+                    <i class="fa fa-pencil"></i> User System Privileges<br>
+                    <i class="fa fa-pencil"></i> Granting System Privileges<br>
+                    <i class="fa fa-pencil"></i> What is a Role?<br>
+                    <i class="fa fa-pencil"></i> Creating and Granting Privileges to a Role<br>
+                    <i class="fa fa-pencil"></i> Changing Your Password<br>
+                    <i class="fa fa-pencil"></i> Object Privileges<br>
+                    <i class="fa fa-pencil"></i> Granting Object Privileges<br>
+                    <i class="fa fa-pencil"></i> Using the WITH GRANT OPTION and PUBLIC Keywords<br>
+                    <i class="fa fa-pencil"></i> Confirming Privileges Granted<br>
+                    <i class="fa fa-pencil"></i> How to Revoke Object Privileges<br>
+                    <i class="fa fa-pencil"></i> Revoking Object Privileges<br>
+                    <i class="fa fa-pencil"></i> Database Links<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse13"><i class="fa fa-bars"></i> SQL
+                        Workshop</a>
+                </h4>
+            </div>
+            <div id="collapse13" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i>Workshop Overview<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse13"><i class="fa fa-bars"></i>
+                        Using
+                        SET Operators</a>
+                </h4>
+            </div>
+            <div id="collapse13" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> The SET Operators<br>
+                    <i class="fa fa-pencil"></i> Tables Used in This Lesson<br>
+                    <i class="fa fa-pencil"></i> The UNION Operator<br>
+                    <i class="fa fa-pencil"></i> Using the UNION Operator<br>
+                    <i class="fa fa-pencil"></i> The UNION ALL Operator<br>
+                    <i class="fa fa-pencil"></i> Using the UNION ALL Operator<br>
+                    <i class="fa fa-pencil"></i> The INTERSECT Operator<br>
+                    <i class="fa fa-pencil"></i> Using the INTERSECT Operator<br>
+                    <i class="fa fa-pencil"></i> The MINUS Operator<br>
+                    <i class="fa fa-pencil"></i> SET Operator Guidelines<br>
+                    <i class="fa fa-pencil"></i> The Oracle Server and SET Operators<br>
+                    <i class="fa fa-pencil"></i> Matching the SELECT Statements<br>
+                    <i class="fa fa-pencil"></i> Controlling the Order of Rows<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse14"><i class="fa fa-bars"></i>
+                        Enhancements to the GROUP BY
+                        Clause</a>
+                </h4>
+            </div>
+            <div id="collapse14" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Review of Group Functions<br>
+                    <i class="fa fa-pencil"></i> Review of the GROUP BY Clause<br>
+                    <i class="fa fa-pencil"></i> Review of the HAVING Clause<br>
+                    <i class="fa fa-pencil"></i> GROUP BY with ROLLUP and CUBE Operators<br>
+                    <i class="fa fa-pencil"></i> ROLLUP Operator<br>
+                    <i class="fa fa-pencil"></i> ROLLUP Operator Example<br>
+                    <i class="fa fa-pencil"></i> CUBE Operator<br>
+                    <i class="fa fa-pencil"></i> CUBE Operator: Example<br>
+                    <i class="fa fa-pencil"></i> GROUPING Function<br>
+                    <i class="fa fa-pencil"></i> GROUPING Function: Example<br>
+                    <i class="fa fa-pencil"></i> GROUPING SETS<br>
+                    <i class="fa fa-pencil"></i> GROUPING SETS: Example<br>
+                    <i class="fa fa-pencil"></i> Composite Columns<br>
+                    <i class="fa fa-pencil"></i> Composite Columns: Example<br>
+                    <i class="fa fa-pencil"></i> Concatenated Groupings<br>
+                    <i class="fa fa-pencil"></i> Concatenated Groupings Example<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse15"><i class="fa fa-bars"></i>
+                        Advanced Subqueries</a>
+                </h4>
+            </div>
+            <div id="collapse15" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> What Is a Subquery?
+                    <i class="fa fa-pencil"></i> Subqueries<br>
+                    <i class="fa fa-pencil"></i> Using a Subquery<br>
+                    <i class="fa fa-pencil"></i> Multiple-Column Subqueries<br>
+                    <i class="fa fa-pencil"></i> Column Comparisons<br>
+                    <i class="fa fa-pencil"></i> Pairwise Comparison Subquery<br>
+                    <i class="fa fa-pencil"></i> Nonpairwise Comparison Subquery<br>
+                    <i class="fa fa-pencil"></i> Using a Subquery in the FROM Clause<br>
+                    <i class="fa fa-pencil"></i> Scalar Subquery Expressions<br>
+                    <i class="fa fa-pencil"></i> Scalar Subqueries: Examples<br>
+                    <i class="fa fa-pencil"></i> Correlated Subqueries<br>
+                    <i class="fa fa-pencil"></i> Using Correlated Subqueries<br>
+                    <i class="fa fa-pencil"></i> Using the EXISTS Operator<br>
+                    <i class="fa fa-pencil"></i> Using the NOT EXISTS Operator<br>
+                    <i class="fa fa-pencil"></i> Correlated UPDATE<br>
+                    <i class="fa fa-pencil"></i> Correlated DELETE<br>
+                    <i class="fa fa-pencil"></i> The WITH Clause<br>
+                    <i class="fa fa-pencil"></i> WITH Clause: Example<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse16"><i class="fa fa-bars"></i>
+                        Hierarchical Retrieval</a>
+                </h4>
+            </div>
+            <div id="collapse16" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Sample Data from the EMPLOYEES Table<br>
+                    <i class="fa fa-pencil"></i> Natural Tree Structure<br>
+                    <i class="fa fa-pencil"></i> Hierarchical Queries<br>
+                    <i class="fa fa-pencil"></i> Walking the Tree<br>
+                    <i class="fa fa-pencil"></i> Walking the Tree: From the Bottom Up<br>
+                    <i class="fa fa-pencil"></i> Walking the Tree: From the Top Down<br>
+                    <i class="fa fa-pencil"></i> Ranking Rows with the LEVEL Pseudocolumn<br>
+                    <i class="fa fa-pencil"></i> Formatting Hierarchical Reports Using LEVEL and LPAD<br>
+                    <i class="fa fa-pencil"></i> Pruning Branches<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse17"><i class="fa fa-bars"></i>
+                        Extensions to DML and DDL
+                        Statements</a>
+                </h4>
+            </div>
+            <div id="collapse17" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Review of the INSERT Statement<br>
+                    <i class="fa fa-pencil"></i> Review of the UPDATE Statement<br>
+                    <i class="fa fa-pencil"></i> Overview of Multitable INSERT Statements<br>
+                    <i class="fa fa-pencil"></i> Overview of Multitable INSERT Statements<br>
+                    <i class="fa fa-pencil"></i> Types of Multitable INSERT Statements<br>
+                    <i class="fa fa-pencil"></i> Multitable INSERT Statements<br>
+                    <i class="fa fa-pencil"></i> Unconditional INSERT ALL<br>
+                    <i class="fa fa-pencil"></i> Conditional INSERT ALL<br>
+                    <i class="fa fa-pencil"></i> Conditional FIRST INSERT<br>
+                    <i class="fa fa-pencil"></i> Pivoting INSERT<br>
+                    <i class="fa fa-pencil"></i> External Tables<br>
+                    <i class="fa fa-pencil"></i> Creating an External Table<br>
+                    <i class="fa fa-pencil"></i> Example of Creating an External Table<br>
+                    <i class="fa fa-pencil"></i> Querying External Tables<br>
+                    <i class="fa fa-pencil"></i> CREATE INDEX with CREATE TABLE Statement<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse18"><i class="fa fa-bars"></i>
+                        Part I:
+                        Programming in PL/SQL </a>
+                </h4>
+            </div>
+            <div id="collapse18" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Introduction to PL/SQL
+                    <i class="fa fa-pencil"></i> What Is PL/SQL?<br>
+                    <i class="fa fa-pencil"></i> The Origins of PL/SQL<br>
+                    <i class="fa fa-pencil"></i> About PL/SQL Versions<br>
+                    <i class="fa fa-pencil"></i> Resources for PL/SQL Developers<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse19"><i class="fa fa-bars"></i>
+                        Creating and Running PL/SQL
+                        Code </a>
+                </h4>
+            </div>
+            <div id="collapse19" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> SQL*Plus<br>
+                    <i class="fa fa-pencil"></i> Performing Essential PL/SQL Tasks<br>
+                    <i class="fa fa-pencil"></i> Calling PL/SQL from Other Languages<br>
+                    <i class="fa fa-pencil"></i> Language Fundamentals<br>
+                    <i class="fa fa-pencil"></i> PL/SQL Block Structure<br>
+                    <i class="fa fa-pencil"></i> The PL/SQL Character Set<br>
+                    <i class="fa fa-pencil"></i> Identifiers<br>
+                    <i class="fa fa-pencil"></i> Literals<br>
+                    <i class="fa fa-pencil"></i> The Semicolon Delimiter<br>
+                    <i class="fa fa-pencil"></i> Comments<br>
+                    <i class="fa fa-pencil"></i> The PRAGMA Keyword<br>
+                    <i class="fa fa-pencil"></i> Labels<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse20"><i class="fa fa-bars"></i>
+                        Part
+                        II: PL/SQL Program
+                        Structure </a>
+                </h4>
+            </div>
+            <div id="collapse20" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Conditional and Sequential Control<br>
+                    <i class="fa fa-pencil"></i> IF Statements<br>
+                    <i class="fa fa-pencil"></i> CASE Statements and Expressions<br>
+                    <i class="fa fa-pencil"></i> The GOTO Statement<br>
+                    <i class="fa fa-pencil"></i> The NULL Statement<br>
+                    <i class="fa fa-pencil"></i> Iterative Processing with Loops<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse21"><i class="fa fa-bars"></i>
+                        Loop
+                        Basics </a>
+                </h4>
+            </div>
+            <div id="collapse21" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> The Simple Loop<br>
+                    <i class="fa fa-pencil"></i> The WHILE Loop<br>
+                    <i class="fa fa-pencil"></i> The Numeric FOR Loop<br>
+                    <i class="fa fa-pencil"></i> The Cursor FOR Loop<br>
+                    <i class="fa fa-pencil"></i> Loop Labels<br>
+                    <i class="fa fa-pencil"></i> Tips for Iterative Processing<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse22"><i class="fa fa-bars"></i>
+                        Exception Handlers</a>
+                </h4>
+            </div>
+            <div id="collapse22" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Exception-Handling Concepts and Terminology<br>
+                    <i class="fa fa-pencil"></i> Defining Exceptions<br>
+                    <i class="fa fa-pencil"></i> Raising Exceptions<br>
+                    <i class="fa fa-pencil"></i> Handling Exceptions<br>
+                    <i class="fa fa-pencil"></i> Building an Effective Error Management Architecture<br>
+                    <i class="fa fa-pencil"></i> Making the Most of PL/SQL Error Management<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse23"><i class="fa fa-bars"></i>
+                        Part
+                        III: PL/SQL Program Data</a>
+                </h4>
+            </div>
+            <div id="collapse23" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Working with Program Data<br>
+                    <i class="fa fa-pencil"></i> Naming Your Program Data<br>
+                    <i class="fa fa-pencil"></i> Overview of PL/SQL Datatypes<br>
+                    <i class="fa fa-pencil"></i> Declaring Program Data<br>
+                    <i class="fa fa-pencil"></i> Programmer-Defined Subtypes<br>
+                    <i class="fa fa-pencil"></i> Conversion Between Datatypes<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse24"><i class="fa fa-bars"></i>
+                        Strings</a>
+                </h4>
+            </div>
+            <div id="collapse24" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> String Datatypes<br>
+                    <i class="fa fa-pencil"></i> Working with Strings<br>
+                    <i class="fa fa-pencil"></i> String Function Quick Reference<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse25"><i class="fa fa-bars"></i>
+                        Numbers
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse25" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Numeric Datatypes<br>
+                    <i class="fa fa-pencil"></i> Number Conversions<br>
+                    <i class="fa fa-pencil"></i> Numeric Functions<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse26"><i class="fa fa-bars"></i>
+                        Records
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse26" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i>Records in PL/SQL<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse27"><i class="fa fa-bars"></i>
+                        Collections </a>
+                </h4>
+            </div>
+            <div id="collapse27" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Collections Overview<br>
+                    <i class="fa fa-pencil"></i> Collection Methods (Built-Ins)<br>
+                    <i class="fa fa-pencil"></i> Working with Collections<br>
+                    <i class="fa fa-pencil"></i> Nested Table Multiset Operations<br>
+                    <i class="fa fa-pencil"></i> Maintaining Schema-Level Collections<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse28"><i class="fa fa-bars"></i>
+                        Miscellaneous Datatypes </a>
+                </h4>
+            </div>
+            <div id="collapse28" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> The BOOLEAN Datatype<br>
+                    <i class="fa fa-pencil"></i> The RAW Datatype<br>
+                    <i class="fa fa-pencil"></i> The UROWID and ROWID Datatypes<br>
+                    <i class="fa fa-pencil"></i> The LOB Datatypes<br>
+                    <i class="fa fa-pencil"></i> Working with LOBs<br>
+                    <i class="fa fa-pencil"></i> Predefined Object Types<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse29"><i class="fa fa-bars"></i>
+                        Part
+                        IV: SQL in PL/SQL</a>
+                </h4>
+            </div>
+            <div id="collapse29" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> DML and Transaction Management<br>
+                    <i class="fa fa-pencil"></i> DML in PL/SQL<br>
+                    <i class="fa fa-pencil"></i> Bulk DML with the FORALL Statement<br>
+                    <i class="fa fa-pencil"></i> Transaction Management<br>
+                    <i class="fa fa-pencil"></i> Autonomous Transactions<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse30"><i class="fa fa-bars"></i>
+                        Data
+                        Retrieval</a>
+                </h4>
+            </div>
+            <div id="collapse30" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Cursor Basics<br>
+                    <i class="fa fa-pencil"></i> Working with Implicit Cursors<br>
+                    <i class="fa fa-pencil"></i> Working with Explicit Cursors<br>
+                    <i class="fa fa-pencil"></i> BULK COLLECT<br>
+                    <i class="fa fa-pencil"></i> SELECT ... FOR UPDATE<br>
+                    <i class="fa fa-pencil"></i> Cursor Variables and REF CURSORs<br>
+                    <i class="fa fa-pencil"></i> Cursor Expressions<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse31"><i class="fa fa-bars"></i>
+                        Procedures, Functions, and
+                        Parameters</a>
+                </h4>
+            </div>
+            <div id="collapse31" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Procedures<br>
+                    <i class="fa fa-pencil"></i> Functions<br>
+                    <i class="fa fa-pencil"></i> Parameters<br>
+                    <i class="fa fa-pencil"></i> Local Modules<br>
+                    <i class="fa fa-pencil"></i> Module Overloading<br>
+                    <i class="fa fa-pencil"></i> Forward Declarations<br>
+                    <i class="fa fa-pencil"></i> Advanced Topics<br>
+                    <i class="fa fa-pencil"></i> Go Forth and Modularize!<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse32"><i class="fa fa-bars"></i>
+                        Packages</a>
+                </h4>
+            </div>
+            <div id="collapse32" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Why Packages?<br>
+                    <i class="fa fa-pencil"></i> Rules for Building Packages<br>
+                    <i class="fa fa-pencil"></i> Rules for Calling Packaged Elements<br>
+                    <i class="fa fa-pencil"></i> Working with Package Data<br>
+                    <i class="fa fa-pencil"></i> When to Use Packages<br>
+                    <i class="fa fa-pencil"></i> Packages and Object Types<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse33"><i class="fa fa-bars"></i>
+                        Triggers </a>
+                </h4>
+            </div>
+            <div id="collapse33" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> DML Triggers<br>
+                    <i class="fa fa-pencil"></i> DDL Triggers<br>
+                    <i class="fa fa-pencil"></i> Database Event Triggers<br>
+                    <i class="fa fa-pencil"></i> INSTEAD OF Triggers<br>
+                    <i class="fa fa-pencil"></i> AFTER SUSPEND Triggers<br>
+                    <i class="fa fa-pencil"></i> Maintaining Triggers<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse34"><i class="fa fa-bars"></i>
+                        Managing PL/SQL Code</a>
+                </h4>
+            </div>
+            <div id="collapse34" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Managing Code in the Database<br>
+                    <i class="fa fa-pencil"></i> Using Native Compilation<br>
+                    <i class="fa fa-pencil"></i> Using the Optimizing Compiler and Compile-Time Warnings<br>
+                    <i class="fa fa-pencil"></i> Conditional Compilation<br>
+                    <i class="fa fa-pencil"></i> Testing PL/SQL Programs<br>
+                    <i class="fa fa-pencil"></i> Debugging PL/SQL Programs<br>
+                    <i class="fa fa-pencil"></i> Tuning PL/SQL Programs<br>
+                    <i class="fa fa-pencil"></i> Protecting Stored Code<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse35"><i class="fa fa-bars"></i> I/O
+                        and
+                        PL/SQL</a>
+                </h4>
+            </div>
+            <div id="collapse35" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Displaying Information<br>
+                    <i class="fa fa-pencil"></i> Reading and Writing Files<br>
+                    <i class="fa fa-pencil"></i> Sending Email<br>
+                    <i class="fa fa-pencil"></i> Working with Web-Based Data (HTTP)<br>
+                    <i class="fa fa-pencil"></i> Other Types of I/O Available in PL/SQL<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse36"><i class="fa fa-bars"></i>
+                        Oracle
+                        Forms Developer 10g: Build
+                        Internet Applications</a>
+                </h4>
+            </div>
+            <div id="collapse36" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Introducing Oracle Forms Developer and Forms Services<br>
+                    <i class="fa fa-pencil"></i> Grid Computing<br>
+                    <i class="fa fa-pencil"></i> Oracle 10g Products<br>
+                    <i class="fa fa-pencil"></i> Oracle Application Server 10g Architecture<br>
+                    <i class="fa fa-pencil"></i> Benefits and Components of Oracle Developer Suite 10g<br>
+                    <i class="fa fa-pencil"></i> Running a Forms Developer Application<br>
+                    <i class="fa fa-pencil"></i> Working in the Forms Developer Environment<br>
+                    <i class="fa fa-pencil"></i> Creating Forms Modules<br>
+                    <i class="fa fa-pencil"></i> Working with Data Blocks and Frames<br>
+                    <i class="fa fa-pencil"></i> Working with Input Items<br>
+                    <i class="fa fa-pencil"></i> Working with Non Input Items<br>
+                    <i class="fa fa-pencil"></i> Working with Windows and Canvases<br>
+                    <i class="fa fa-pencil"></i> Producing Triggers<br>
+                    <i class="fa fa-pencil"></i> Debugging Triggers<br>
+                    <i class="fa fa-pencil"></i> Adding Functionality to Items<br>
+                    <i class="fa fa-pencil"></i> Run-Time Messages and Alerts<br>
+                    <i class="fa fa-pencil"></i> Query Triggers Validation<br>
+                    <i class="fa fa-pencil"></i> Navigation<br>
+                    <i class="fa fa-pencil"></i> Transaction Processing<br>
+                    <i class="fa fa-pencil"></i> Sharing Objects and Code<br>
+                    <i class="fa fa-pencil"></i> Using WebUtil to Interact with the Client<br>
+                    <i class="fa fa-pencil"></i> Introducing Multiple Form Applications<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse37"><i class="fa fa-bars"></i>
+                        Miscellaneous Datatypes</a>
+                </h4>
+            </div>
+
+            <div id="collapse37" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> The BOOLEAN Datatype<br>
+                    <i class="fa fa-pencil"></i> The RAW Datatype<br>
+                    <i class="fa fa-pencil"></i> The UROWID and ROWID Datatypes<br>
+                    <i class="fa fa-pencil"></i> The LOB Datatypes<br>
+                    <i class="fa fa-pencil"></i> Working with LOBs<br>
+                    <i class="fa fa-pencil"></i> Predefined Object Types<br>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse38"><i class="fa fa-bars"></i>
+                        Oracle
+                        Reports Developer 10g:
+                        Build Reports</a>
+                </h4>
+            </div>
+            <div id="collapse38" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <i class="fa fa-pencil"></i> Introduction to Oracle Reports Developer
+                    <i class="fa fa-pencil"></i> Business Intelligence <br>
+                    <i class="fa fa-pencil"></i> Enterprise Reporting <br>
+                    <i class="fa fa-pencil"></i> Oracle Reports Developer<br>
+                    <i class="fa fa-pencil"></i> Oracle Database 10g <br>
+                    <i class="fa fa-pencil"></i> Oracle Developer Suite 10g <br>
+                    <i class="fa fa-pencil"></i> Oracle Application Server 10g <br>
+                    <i class="fa fa-pencil"></i> OracleAS Reports Services <br>
+                    <i class="fa fa-pencil"></i> OracleAS Reports Services Architecture for the Web <br>
+                    <i class="fa fa-pencil"></i> Designing and Running Reports <br>
+                    <i class="fa fa-pencil"></i> Exploring Oracle Reports Developer <br>
+                    <i class="fa fa-pencil"></i> Creating a Paper Report <br>
+                    <i class="fa fa-pencil"></i> Enhancing a Basic Paper Report <br>
+                    <i class="fa fa-pencil"></i> Managing Report TemplatesCreating a Web Report <br>
+                    <i class="fa fa-pencil"></i> Enhancing Reports Using the Data Model: Queries and Groups <br>
+                    <i class="fa fa-pencil"></i> Enhancing Reports Using the Data Model: Data Sources <br>
+                    <i class="fa fa-pencil"></i> Enhancing Reports Using the Data Model: Creating Columns <br>
+                    <i class="fa fa-pencil"></i> Enhancing Reports Using the Paper Layout <br>
+                    <i class="fa fa-pencil"></i> Controlling the Paper Layout: Common Properties <br>
+                    <i class="fa fa-pencil"></i> Controlling the Paper Layout: Specific Properties <br>
+                    <i class="fa fa-pencil"></i> Web Reporting<br>
+                    <i class="fa fa-pencil"></i> Extending Functionality Using XML<br>
+                    <i class="fa fa-pencil"></i> Creating and Using Report Parameters<br>
+                    <i class="fa fa-pencil"></i> Embedding a Graph in a Report<br>
+                    <i class="fa fa-pencil"></i> Enhancing Matrix Reports<br>
+                    <i class="fa fa-pencil"></i> Coding PL/SQL Triggers<br>
+                    <i class="fa fa-pencil"></i> Extending Functionality Using the SRW Package<br>
+                    <i class="fa fa-pencil"></i> Maximizing Performance Using<br>
+                    <i class="fa fa-pencil"></i> OracleAS Reports Services<br>
+                    <i class="fa fa-pencil"></i> Building Reports: Efficiency Guidelines<br>
+                    <i class="fa fa-pencil"></i> Working with SQL Worksheet<br>
+                    <i class="fa fa-pencil"></i> Using SQL Developer<br>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

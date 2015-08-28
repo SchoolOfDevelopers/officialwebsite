@@ -1,0 +1,465 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% block title %}Home{% endblock %}
+{% block address %}
+{% endblock %}
+{% block content %}
+    <link type="text/css" href="{% static 'css/pricing.css' %}" rel="stylesheet">
+    <div class="row" style="margin-top: 1%;">
+        <div class="col-md-6 col-xs-12">
+            <img class="img-responsive" src="http://farm5.static.flickr.com/4145/4833178654_d1ac96a1a0.jpg">
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <blockquote class="bg-info">
+                <p>Walking on water and developing software from a specification are easy if both are frozen.</p>
+                <footer>Edward V Berard</footer>
+            </blockquote>
+            <blockquote class="bg-warning">
+                <p>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows
+                    where you live</p>
+                <footer>Rick Osborne</footer>
+            </blockquote>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-xs-12">
+            <h1>Welcome to SOD</h1>
+
+            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                <br>Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="well
+            ">
+                <h2 class="text-success">Notice &amp; <span style="color: darkred">Events</span></h2>
+                <marquee scrolldelay="200" direction="up">Digital India Program
+                    <br>This is a notice
+                    <br>next workshop on AI
+                    <br>learn python
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <h1 class="text-center text-info">Services We Offer</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="row bg-success">
+        <div class="col-md-12 col-xs-12">
+            <div class="section">
+                <div class="container row">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12">
+                            <img src="http://coachestrainingblog.com/becomeacoach/wp-content/uploads/2012/09/13310114_s-1.jpg"
+                                 class="img-responsive">
+
+                            <h2>Industrial Training Program</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <img src="http://www.amplifymind.com/media/images/corporate/samsungTrainingLab01.jpg"
+                                 class="img-responsive">
+
+                            <h2>Final Year Project Training</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <img src="http://economictimes.indiatimes.com/photo/22639412.cms"
+                                 class="img-responsive">
+
+                            <h2>Corporate Training Program</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <img src="http://www.q2serves.co.uk/images/it-support-services.jpg"
+                                 class="img-responsive">
+
+                            <h2>IT Outsourcing</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">IT Training</h1>
+        </div>
+    </div>
+    <div class="row bg-primary">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+
+            <!-- PRICE ITEM -->
+            <div class="panel price panel-grey">
+                <div class="panel-heading arrow_box text-center">
+                    <h3>FOUNDATION</h3>
+                </div>
+                <div class="panel-body text-center">
+                    <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
+                    <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
+                    <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                </ul>
+                <div class="panel-footer">
+                    <a class="btn btn-lg btn-block btn-primary" href="#">VIEW DETAILS</a>
+                </div>
+            </div>
+            <!-- /PRICE ITEM -->
+
+
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+
+            <!-- PRICE ITEM -->
+            <div class="panel price panel-green">
+                <div class="panel-heading arrow_box text-center">
+                    <h3>ADVANCED</h3>
+                </div>
+                <div class="panel-body text-center">
+                    <p class="lead" style="font-size:40px"><strong>$20 / month</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><i class="icon-ok text-info"></i> Personal use</li>
+                    <li class="list-group-item"><i class="icon-ok text-info"></i> Unlimited projects</li>
+                    <li class="list-group-item"><i class="icon-ok text-info"></i> 27/7 support</li>
+                </ul>
+                <div class="panel-footer">
+                    <a class="btn btn-lg btn-block btn-success" href="#">VIEW DETAILS</a>
+                </div>
+            </div>
+            <!-- /PRICE ITEM -->
+
+
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+
+            <!-- PRICE ITEM -->
+            <div class="panel price panel-red">
+                <div class="panel-heading arrow_box text-center">
+                    <h3>PROFESSIONAL</h3>
+                </div>
+                <div class="panel-body text-center">
+                    <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
+                    <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
+                    <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                </ul>
+                <div class="panel-footer">
+                    <a class="btn btn-lg btn-block btn-danger" href="#">VIEW DETAILS</a>
+                </div>
+            </div>
+            <!-- /PRICE ITEM -->
+
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+
+    </div>
+    <div class="row bg-success">
+        <div class="col-md-12 ">
+            <h1 class="text-center">Popular courses</h1>
+        </div>
+    </div>
+    <div class="row bg-success">
+        <div class="col-md-12 ">
+            <div class="section ">
+                <div class="container row">
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <img src="http://dribbble.s3.amazonaws.com/users/3777/screenshots/374791/c-dribbble_v2.png"
+                                 class="img-responsive ">
+
+                            <h2>C Programming</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://www.vataliyatuitionclasses.com/img/works/item-4.jpg"
+                                 class="img-responsive ">
+
+                            <h2>php-MySql</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://velociters.com/img/java.jpg
+            " class="img-responsive img-rounded ">
+
+                            <h2>Java/J2EE</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3TF0GldOJdsvh77eOvCc2qzib1vf6Tzdy3l5Zs3sICPVfzKRcHg
+            " class="img-responsive ">
+
+                            <h2>Web Designing</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-md-12 ">
+            <h1 class="text-center text-info ">Our Projects</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12 ">
+            <div class="section ">
+                <div class="container row">
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive img-rounded ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-md-12 ">
+            <h1 class="text-center text-info ">Workshop &amp; Seminar</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="row ">
+        <div class="col-md-12 ">
+            <div class="section ">
+                <div class="container row ">
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive img-rounded ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-md-12 ">
+            <h1 class="text-center text-info ">Recent Blog Posts</h1>
+        </div>
+    </div><hr>
+    <div class="row ">
+        <div class="col-md-12 ">
+            <div class="section ">
+                <div class="container row ">
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive img-rounded ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png
+            " class="img-responsive ">
+
+                            <h2>A title</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-5">
+            <h1 class="text-center text-success ">Testimonials</h1>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://lh3.googleusercontent.com/-hilD9HuWDH0/AAAAAAAAAAI/AAAAAAAAAC0/Omaub35ucCU/s120-c/photo.jpg"
+                         class="img-responsive img-circle">
+                </div>
+                <div class="col-md-6">
+                    <h6>I am thankfull to school of developers. Without their help I could not reach where I am
+                        today.</h6>
+                    <span><strong>Arindam Sarkar</strong><br><span class="text-muted">Jr. IT Support FIS</span></span>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://lh3.googleusercontent.com/-yqSvweGjEMk/AAAAAAAAAAI/AAAAAAAAAC8/QkkdQYuJJ0s/s180-c-k-no/photo.jpg"
+                         class="img-responsive img-circle">
+                </div>
+                <div class="col-md-6">
+                    <h6>I am thankfull to school of developers. Without their help I could not reach where I am
+                        today.</h6>
+                    <span><strong>Arindam Sarkar</strong><br><span class="text-muted">Jr. IT Support FIS</span></span>
+
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://lh3.googleusercontent.com/-hilD9HuWDH0/AAAAAAAAAAI/AAAAAAAAAC0/Omaub35ucCU/s120-c/photo.jpg"
+                         class="img-responsive img-circle">
+                </div>
+                <div class="col-md-6">
+                    <h6>I am thankfull to school of developers. Without their help I could not reach where I am
+                        today.</h6>
+                    <span><strong>Arindam Sarkar</strong><br><span class="text-muted">Jr. IT Support FIS</span></span>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div style="padding: 2%; margin: 4%; border: 1px solid darkseagreen; box-shadow: 5px 5px 5px darkseagreen"
+             class="col-md-6 section-success">
+            <h2 class="text-center text-muted
+            ">Enquiry</h2>
+
+            <form action="" method="post">{% csrf_token %}
+                {{ form| crispy }}
+                <input class="btn btn-default " type="submit" value="Submit"/>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

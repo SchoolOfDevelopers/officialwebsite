@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}
+    Certificate in C Programming
+{% endblock %}
+{% block content %}
+    <div class="panel-primary">
+        <!-- Default panel contents -->
+        <div class="panel-heading text-center"><h3>{% block course_title_head %}
+        
+        {% endblock %}</h3></div>
+        <!-- List group -->
+        <ul class="list-group">
+            <li class="list-group-item">Course Title: {% block course_title %}
+
+            {% endblock %}</li>
+            <li class="list-group-item">Course Duration: {% block course_duration %}
+
+            {% endblock %}</li>
+            <li class="list-group-item">Course Fee: {% block course_fee %}
+
+            {% endblock %}</li>
+
+        </ul>
+    </div>
+    <h4><strong>Course Content</strong></h4>
+    {% block course_content %}
+    {% endblock %}
+{% endblock %}

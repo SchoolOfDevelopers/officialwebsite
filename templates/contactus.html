@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Contact Us{% endblock %}
+{% block address %}
+    {{ block.super }}
+{% endblock %}
+{% block content %}
+    <div class="row section">
+        <div class="col-md-6 ">
+            <h3 class="text-center">MESSAGE</h3>
+
+            <div>
+                <form action="" method="post">{% csrf_token %}
+                    {{ form| crispy }}
+                    <input class="btn btn-default " type="submit" value="Send"/>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6 section-info">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">HEAD OFFICE</h3>
+                    <hr>
+                    <div class="">
+                        <strong>SCHOOL OF DEVELOPERS&trade;</strong><br>
+                        KUNJABAN, VIP ROAD<br>
+                        AGARTALA, WEST TRIPURA<br>
+                        email: contact@schoolofdevelopers.in<br>
+                        call :
+                    </div>
+                </div>
+                <div class="col-md-12 SECTION">
+                    google map
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

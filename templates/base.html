@@ -1,0 +1,194 @@
+<!doctype html>
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="utf-8 ">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+    <script src='../static/js/jquery.typer.js'></script>
+    <title>{% block title %}{% endblock %} | SOD</title>
+</head>
+<body style="background: url('http://www.webdesignboom.net/wp-content/uploads/2014/03/premium-seamless-pattern-with-social-media-icons.jpg')">
+<div class="container wrapper" style="background-color: whitesmoke">
+    <div class="row bg-primary head-wrapper" style="padding:10px">
+        <div class="col-md-10 col-xs-12 ">
+            <h1 class="pull-left">School Of Developers&trade;</h1><kbd><strong>
+        </strong>Think in code</kbd>
+        </div>
+        <div class="col-md-2 pull-right col-xs-12">
+            <img class="hidden-sm hidden-xs img-circle img-responsive"
+                 src="http://www.marianinc.com/wp-content/uploads/2015/07/ISO-Certified-Co-Logo-Blue.jpg"
+                 max-width="20px">
+            <img class="hidden-lg hidden-md img-circle img-responsive"
+                 src="http://www.marianinc.com/wp-content/uploads/2015/07/ISO-Certified-Co-Logo-Blue.jpg" width="45px">
+        </div>
+    </div>
+    <div class="navbar row navbar-default navbar-static-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{% url 'index' %}"><i class="fa fa-fw fa-home fa-lg"></i></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">IT
+                            Training<i class="fa fa-caret-down"></i></a>
+                        <ul class="dropdown-menu list-group" role="menu">
+                            <li class="list-group-item active"><strong>Foundation</strong></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{% url 'cprogramming' %}">C</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{% url 'cplusplus' %}">C++</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Python</a>
+                            </li>
+                            <li class="divider"></li>
+
+                            <li>
+                                <a href="{% url 'corejava' %}"> Core Java</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="list-group-item active"><strong>Advanced</strong></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{% url 'webdesign' %}">Web Designing</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">PHP</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">.Net</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">J2EE</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Django (Python Framework)</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{% url 'android' %}">Android App Development</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{% url 'seo' %}">SEO</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{% url 'oracle' %}">Oracle</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="list-group-item active"><strong>Professional Training</strong></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Industrial Training</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Corporate Training</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Final Year Project Training</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">IT Outsourcing</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="">
+                        <a href="#">R&amp;D Cell</a>
+                    </li>
+                    <li>
+                        <a href="#">Placement</a>
+                    </li>
+                    <li>
+                        <a href="#">Career</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'contact' %}">Contact Us</a>
+                    </li>
+                    <li class="btn-primary">
+                        <a href="{% url 'internship' %}"><span style="color:white">Apply for Internship</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% block address %}
+        <div class="well section-danger">
+            You are here:
+            {{ request.get_full_path }}
+        </div>
+    {% endblock %}
+    {% block content %}
+    {% endblock %}
+    <footer class="row section section-primary ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-6 ">
+                    <h1>School Of Developers&trade;</h1>
+
+                    <p>A Unit Of I&ampT INDIA PRIVATE LIMITED</p>
+
+                    <P>All rights reserved &copy;2014-15</P>
+
+                </div>
+                <div class="col-sm-6 ">
+                    <p class="text-info text-right ">
+                        <br>
+                        <br>
+                    </p>
+
+                    <div class="row ">
+                        <div class="col-md-12 hidden-lg hidden-md hidden-sm
+            text-left ">
+                            <a href="https://www.facebook.com/schoolofdevelopers"><i class="fa fa-3x fa-fw fa-facebook
+            text-inverse "></i></a>
+                            <a href="https://github.com/sodindia"><i class="fa fa-3x fa-fw fa-github
+            text-inverse "></i></a>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 hidden-xs text-center ">
+                            <a href=""><i class="fa fa-3x fa-fw fa-instagram
+            text-inverse "></i></a>
+                            <a href="https://www.facebook.com/schoolofdevelopers"><i class="fa fa-3x fa-facebook text-inverse "></i></a>
+                            <a href="https://github.com/sodindia"><i class="fa fa-3x fa-fw fa-github
+            text-inverse "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript " src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js "></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css
+            " rel="stylesheet " type="text/css ">
+</div>
+<a href="#"><img style="position:fixed; top:92% " src="http://www.iibmindia.in/images/chat.png "></a>
+</body>
+</html>

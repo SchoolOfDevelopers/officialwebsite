@@ -1,0 +1,50 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome | School Of Developers</title>
+    <meta http-equiv="refresh" content="6;URL='/home'" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="{% static 'js/typed.js' %}" type="text/javascript"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'css/welcome.css'%}" type="text/css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+ <script>
+    $(function(){
+        $("#typed").typed({
+            strings: ["School Of Developers"],
+            typeSpeed: 150,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+<div class="tablet container section img-responsive">
+    <img width="100%" class="img-responsive" src="{% static 'img/Samsung_Galaxy_Tab_10.1.png' %}">
+</div>
+ <div class="type-wrap slogan text-center digital">
+     <span id="typed" style="white-space:pre;">WELCOME TO</span>
+ </div><br><br>
+<div class="type-wrap texting text-center">
+    <i class="fa fa-spinner fa-pulse fa-lg"></i>
+</div>
+</body>
+</html>
