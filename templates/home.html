@@ -54,44 +54,51 @@
                 <div class="container row">
                     <div class="row">
                         <div class="col-md-3 col-xs-12">
-                            <img src="http://coachestrainingblog.com/becomeacoach/wp-content/uploads/2012/09/13310114_s-1.jpg"
-                                 class="img-responsive">
+                            <style>
 
+                            a{ color:#000000; text-decoration: none; outline: none;}
+                            </style>
+                            <a href="{%url 'IndustrialTrainingProgram'%}">
+                            <img src="http://coachestrainingblog.com/becomeacoach/wp-content/uploads/2012/09/13310114_s-1.jpg"
+                                 class="img-responsive"></a>
+                            <a href="{%url 'IndustrialTrainingProgram'%}">
                             <h2>Industrial Training Program</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                            <p align="justify">It's refers to a program which aims to provide supervised practical training within a specified timeframe.
+                                <br>This training can be carried out either in government organisations or in the private sector.</p></a>
                         </div>
                         <div class="col-md-3 col-xs-12">
+                            <a href="{%url 'finalyearProTraining'%}">
                             <img src="http://www.amplifymind.com/media/images/corporate/samsungTrainingLab01.jpg"
-                                 class="img-responsive">
-
+                                 class="img-responsive"></a>
+                                 
+                          <a href="{%url 'finalyearProTraining'%}">
                             <h2>Final Year Project Training</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                            <p align="justify">It's allows candidates to go through the knowledge in a professional                                                                             environment,<br>
+                                which is very helpful for the candidates as pre learning experience.</p></a>
                         </div>
                         <div class="col-md-3 col-xs-12">
+                            <a href="{%url 'CorporateTrainingProgram'%}">
                             <img src="http://economictimes.indiatimes.com/photo/22639412.cms"
-                                 class="img-responsive">
-
+                                 class="img-responsive"></a>
+                                 
+                            <a href="{%url 'CorporateTrainingProgram'%}">
                             <h2>Corporate Training Program</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                            <p>Whether you’re an established professional,<br>
+                            our training will give you to gain extensive knowledge and<br>
+                            to be the Master on the outgoing and latest technology.</p></a>
                         </div>
                         <div class="col-md-3 col-xs-12">
+                              <a href="{%url 'itoutsourcing'%}">
                             <img src="http://www.q2serves.co.uk/images/it-support-services.jpg"
                                  class="img-responsive">
 
                             <h2>IT Outsourcing</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-                                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                                <br>Ut enim ad minim veniam, quis nostrud</p>
+                            <p>It is a phrase used to describe the practice of seeking resources outside of an <br>
+                            organizational structure for part of an IT (Information Technology) function.</p></a>
                         </div>
                     </div>
                 </div>
@@ -236,6 +243,12 @@
                     </div>
                 </div>
             </div>
+            <div class="row bg-success">
+                <div class="col-xs-12  ">
+                    <a href="{% url 'training' %}"><span
+                            class="btn btn-warning text-center pull-right">View All Courses</span></a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row ">
@@ -354,7 +367,8 @@
         <div class="col-md-12 ">
             <h1 class="text-center text-info ">Recent Blog Posts</h1>
         </div>
-    </div><hr>
+    </div>
+    <hr>
     <div class="row ">
         <div class="col-md-12 ">
             <div class="section ">
@@ -461,5 +475,4 @@
             </form>
         </div>
     </div>
-
 {% endblock %}

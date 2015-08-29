@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% block title %}Home{% endblock %}
+{% block address %}
+{% endblock %}
+{% block content %}
+    <link type="text/css" href="{% static 'css/pricing.css' %}" rel="stylesheet">
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <h1 class="text-center text-info">Services We Offer</h1>
+        </div>
+    </div>
+    <hr>
+        <div class="row" style="margin-top: 1%;">
+        <div class="col-md-6 col-xs-12">
+            <img class="img-responsive" src="http://www.amplifymind.com/media/images/corporate/samsungTrainingLab01.jpg">
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <blockquote class="bg-info">
+                <p>It's allows candidates to go through the knowledge in a professional environment.</p>
+                <footer></footer>
+            </blockquote>
+            <blockquote class="bg-warning">
+                <p>which is very helpful for the candidates as pre learning experience.</p>
+                <footer></footer>
+            </blockquote>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-xs-12">
+            <h1>Final Year Project Training</h1>
+            
+            <p class="text-left"></p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="well">
+                <h2 class="text-success">Apply <span style="color: darkred">Online</span></h2>
+                
+            </div>
+        </div>
+    </div>
+        <hr>
+    <div class="row">
+        <div class="col-md-5">
+            <h1 class="text-center text-success ">Testimonials</h1>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://lh3.googleusercontent.com/-hilD9HuWDH0/AAAAAAAAAAI/AAAAAAAAAC0/Omaub35ucCU/s120-c/photo.jpg"
+                         class="img-responsive img-circle">
+                </div>
+                <div class="col-md-6">
+                    <h6>I am thankfull to school of developers. Without their help I could not reach where I am
+                        today.</h6>
+                    <span><strong>Arindam Sarkar</strong><br><span class="text-muted">Jr. IT Support FIS</span></span>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://lh3.googleusercontent.com/-yqSvweGjEMk/AAAAAAAAAAI/AAAAAAAAAC8/QkkdQYuJJ0s/s180-c-k-no/photo.jpg"
+                         class="img-responsive img-circle">
+                </div>
+                <div class="col-md-6">
+                    <h6>I am thankfull to school of developers. Without their help I could not reach where I am
+                        today.</h6>
+                    <span><strong>Arindam Sarkar</strong><br><span class="text-muted">Jr. IT Support FIS</span></span>
+
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://lh3.googleusercontent.com/-hilD9HuWDH0/AAAAAAAAAAI/AAAAAAAAAC0/Omaub35ucCU/s120-c/photo.jpg"
+                         class="img-responsive img-circle">
+                </div>
+                <div class="col-md-6">
+                    <h6>I am thankfull to school of developers. Without their help I could not reach where I am
+                        today.</h6>
+                    <span><strong>Arindam Sarkar</strong><br><span class="text-muted">Jr. IT Support FIS</span></span>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div style="padding: 2%; margin: 4%; border: 1px solid darkseagreen; box-shadow: 5px 5px 5px darkseagreen"
+             class="col-md-6 section-success">
+            <h2 class="text-center text-muted
+            ">Enquiry</h2>
+
+            <form action="" method="post">{% csrf_token %}
+                {{ form| crispy }}
+                <input class="btn btn-default " type="submit" value="Submit"/>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
